@@ -1,4 +1,4 @@
-import type { Affiliates } from 'vtex.vtexday2023-hackathon-affiliates'
+import type { Affiliates } from 'renawareperu.affiliates-custom'
 
 import { findDocumentsByField, isSlugValid } from '../utils/shared'
 

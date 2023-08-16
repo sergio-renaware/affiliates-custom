@@ -1,5 +1,5 @@
 import { json } from 'co-body'
-import type { Affiliates } from 'vtex.vtexday2023-hackathon-affiliates'
+import type { Affiliates } from 'renawareperu.affiliates-custom'
 
 import type { AffiliateInput } from '../typings/affiliates'
 import { findDocumentsByField, isSlugValid } from '../utils/shared'

@@ -1,4 +1,4 @@
-import type { QueryGetAffiliatesArgs } from 'vtex.vtexday2023-hackathon-affiliates'
+import type { QueryGetAffiliatesArgs } from 'renawareperu.affiliates-custom'
 
 import { parseAffiliatesFilters } from '../utils/filters'
 

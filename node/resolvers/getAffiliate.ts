@@ -1,4 +1,4 @@
-import type { QueryGetAffiliateArgs } from 'vtex.vtexday2023-hackathon-affiliates'
+import type { QueryGetAffiliateArgs } from 'renawareperu.affiliates-custom'
 
 export const getAffiliate = async (
   _: unknown,

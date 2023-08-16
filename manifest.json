@@ -1,9 +1,9 @@
 {
-  "name": "vtexday2023-hackathon-affiliates",
-  "vendor": "vtex",
+  "name": "affiliates-custom",
+  "vendor": "renawareperu",
   "version": "1.1.0",
   "title": "Affiliates",
-  "description": "App that adds support for affiliates on IO stores to be used on the VTEX Day 2023 Hackathon",
+  "description": "This App that adds support for affiliates on IO stores to be used on Rena Ware",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {
