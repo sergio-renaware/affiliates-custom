@@ -5834,21 +5834,21 @@ verror@1.10.0:
   version "2.83.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.83.1/public/@types/vtex.product-summary#5c8cdaaca7648462cad2fddc6742696fca57dcc8"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
-  version "8.132.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.133.2/public/@types/vtex.render-runtime":
+  version "8.133.2"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.133.2/public/@types/vtex.render-runtime#6fc9c79c52f292c67f583e96d66a56b7b61eabd1"
 
-"vtex.responsive-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout":
-  version "0.1.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.2/public/@types/vtex.responsive-layout#e33f23a78afb3ffb8ff8aedc77b1ca6728583e72"
+"vtex.responsive-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout":
+  version "0.1.4"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout#e67d61ec1e308accb4e0ef2bd172fe04a41bf662"
 
 "vtex.rich-text@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text":
   version "0.16.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.rich-text@0.16.0/public/@types/vtex.rich-text#0cdcaccffb37ae0d025894ba7055f69bc3c9aa30"
 
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.122.2/public/@types/vtex.search-result":
-  version "3.122.2"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.122.2/public/@types/vtex.search-result#e5ec3d77962ac7d31b6d1b555349bc5e11cebc70"
+"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.124.0/public/@types/vtex.search-result":
+  version "3.124.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.124.0/public/@types/vtex.search-result#619e1f68a8db0ce20b68156f75bb821b44401000"
 
 "vtex.session-client@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.session-client@1.0.2/public/@types/vtex.session-client":
   version "1.0.2"
@@ -5866,9 +5866,9 @@ verror@1.10.0:
   version "2.131.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.131.1/public/@types/vtex.store#827708eeb47e82494554d5748a48bed3bea01184"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.4/public/@types/vtex.styleguide":
-  version "9.146.4"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.4/public/@types/vtex.styleguide#0b5e5ec3e20bbcd4f93701376d007feba294c9d3"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
+  version "9.146.9"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide#d1601fedfb665c6173334753171717da64e670bc"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

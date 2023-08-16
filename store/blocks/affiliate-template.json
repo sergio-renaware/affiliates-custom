@@ -1,6 +1,7 @@
 {
   "affiliate-template": {
     "children": [
+      "rich-text#affiliate",
       "affiliate-store-name",
       "flex-layout.row#banner",
       "affiliate-profile-button",
@@ -14,7 +15,7 @@
 
   "image#affiliate-banner": {
     "props": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/VTEX_Logo.svg/400px-VTEX_Logo.svg.png"
+      "src": "https://renawareasesoracomercial.com/wp-content/uploads/2020/09/RENAW_Logo_PrimaryHoriz_Navy_RGB_JPEG-1024x269.jpg"
     }
   },
 
@@ -33,5 +34,14 @@
       "search-result-layout.mobile",
       "search-not-found-layout"
     ]
+  },
+
+  "rich-text#affiliate": {
+      "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Esta es la tienda de ",
+          "font": "t-heading-1"
+      }
   }
 }
