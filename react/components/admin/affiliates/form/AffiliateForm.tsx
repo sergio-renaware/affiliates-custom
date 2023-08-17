@@ -36,6 +36,7 @@ const AffiliateForm: FC<AffiliateFormProps> = ({ affiliate }) => {
       refId: affiliate?.refId ?? '',
       document: affiliate?.document ?? '',
       documentType: affiliate?.documentType ?? '',
+      image: affiliate?.image ?? '/arquivos/userimageprofilemaster.png',
       address: {
         street: affiliate?.address?.street ?? '',
         number: affiliate?.address?.number ?? '',

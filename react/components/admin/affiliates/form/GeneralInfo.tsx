@@ -1,10 +1,12 @@
 import type { FC } from 'react'
 import React, { useEffect, useState } from 'react'
-import { Heading, Divider, Flex, Box } from '@vtex/admin-ui'
+import { Heading, Divider, Flex, Box, Label } from '@vtex/admin-ui'
 import type { FormState } from '@vtex/admin-ui-form'
 import { TextInput } from '@vtex/admin-ui-form'
 import { useIntl } from 'react-intl'
 import { useLazyQuery } from 'react-apollo'
+
+import { Dropzone } from 'vtex.styleguide'
 
 import GET_AFFILIATE_STORE_NAME_QUERY from '../../../../graphql/getAffiliateStoreName.graphql'
 import { messages } from '../../../../utils/messages'
@@ -34,6 +36,19 @@ const GeneralInfo: FC<GeneralInfoType> = ({ form }) => {
     await form.setValue('slug', updatedSlug)
 
     setNewSlug(updatedSlug)
+  }
+
+  const [filesState, setFilesState] = useState({ result: "" })
+  
+  function handleFile(files:any) {
+    setFilesState({ result: files[0] })
+    console.log(files[0])
+  }
+
+  function handleReset(files:any) {
+    if (files[0]) {
+      console.log(files[0])
+    }
   }
 
   useEffect(() => {
@@ -111,6 +126,38 @@ const GeneralInfo: FC<GeneralInfoType> = ({ form }) => {
             label={intl.formatMessage(messages.documentLabel)}
           />
         </Box>
+        
+        <div className='w-100' id='file-image-container'>
+          <div className='dn'>
+            <TextInput
+              state={form}
+              name="image"
+              label={intl.formatMessage(messages.imageFileLabel)}
+            />
+          </div>
+          <Label csx={{ width: '100%' }}>
+            {intl.formatMessage(messages.imageFileLabel)}
+          </Label>
+          <Dropzone
+            accept=".png,.jpg,.jpeg"
+            onDropAccepted={handleFile}
+            multiple={false}
+            onFileReset={handleReset}>
+
+            <div className="pt7">
+              <div>
+                <span className="f4">Drop here your image or </span>
+                <span className="f4 c-link" style={{ cursor: 'pointer' }}>
+                  choose a file
+                </span>
+              </div>
+            </div>
+          </Dropzone>
+          {filesState.result && (
+            <div className="mt4">
+            </div>
+          )}
+        </div>
       </Flex>
     </>
   )

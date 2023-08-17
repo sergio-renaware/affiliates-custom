@@ -71,6 +71,7 @@ input UpdateAffiliateInput {
   documentType: String
   phone: String
   marketing: MarketingInput
+  image: String
 }
 
 type Affiliate {
@@ -86,6 +87,7 @@ type Affiliate {
   address: Address
   document: String
   documentType: String
+  image: String
   marketing: Marketing
 }
 

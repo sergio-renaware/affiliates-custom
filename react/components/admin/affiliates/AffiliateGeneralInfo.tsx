@@ -69,6 +69,13 @@ const AffiliateGeneralInfo: FC<AffiliateGeneralInfoProps> = ({
                 <Text variant="action2" tone="info">
                   {affiliate?.email}
                 </Text>
+                <FlexSpacer />
+                <Text variant="title1">{`${intl.formatMessage(
+                  messages.imageFileLabel
+                )}: `}</Text>
+                <Text variant="action2" tone="info">
+                  {affiliate?.image}
+                </Text>
               </Column>
               <Column units={6}>
                 <Text variant="title1">{`${intl.formatMessage(

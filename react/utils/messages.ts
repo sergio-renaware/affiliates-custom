@@ -121,6 +121,7 @@ export const messages = defineMessages({
   referenceLabel: { id: 'admin/reference.label' },
   zipCodeLabel: { id: 'admin/zipcode.label' },
   socialLabel: { id: 'admin/social.label' },
+  imageFileLabel: { id: 'admin/image.file.label' },
   facebookLabel: { id: 'admin/facebook.label' },
   instagramLabel: { id: 'admin/instagram.label' },
   whatsappLabel: { id: 'admin/whatsapp.label' },
