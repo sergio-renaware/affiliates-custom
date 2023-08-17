@@ -57,6 +57,7 @@ input NewAffiliateInput {
   documentType: String
   phone: String
   marketing: MarketingInput
+  image: String
 }
 
 input UpdateAffiliateInput {
